@@ -6,12 +6,12 @@ body {
 h1 {
     color:rgb(27, 17, 17);
     font-family: Verdana;
-    text-indent: 2%;
+    text-indent: 4%;
 }
 .maindiv {
     background-color: white;
     color: black;
-    width: 37%;
+    width: 38%;
     height: auto;
     padding: 20px;
     border-radius: 30px;
@@ -27,5 +27,5 @@ p {
     text-indent: 15%;
 }
 footer{
-    text-indent: 2%;
+    text-indent: 4%;
 }
