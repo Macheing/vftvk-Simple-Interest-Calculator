@@ -1,1 +1,1 @@
-# coding-project-template
+simple calculator in html, css and javascript
