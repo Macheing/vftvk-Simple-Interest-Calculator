@@ -1,1 +1,1 @@
-simple calculator in html, css and javascript
+simple interest calculator in html, css and javascript
