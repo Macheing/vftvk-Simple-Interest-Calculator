@@ -4,9 +4,8 @@ function compute(){
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear() + parseInt(years);
-    
-
     if (principal <= 0){
+        document.getElementById("principal").style.backgroundColor = "blue";
         return alert("Enter a positive number")
     }
     
