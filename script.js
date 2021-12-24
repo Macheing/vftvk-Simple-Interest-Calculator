@@ -4,9 +4,10 @@ function compute(){
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear() + parseInt(years);
-    if (principal <= 0){
-        document.getElementById("principal").style.backgroundColor = "blue";
-        return alert("Enter a positive number")
+    if (principal <= 0 || String(principal) == "NaN"){
+        alert("Enter a positive number")
+        document.getElementById("principal").focus();
+        
     }
     
     else {
@@ -20,4 +21,12 @@ function compute(){
 function updateRate(){
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText= rateval +"%";
+}
+// This function resets all the values and the results when the page is refreshed
+function resetInputs(){
+  document.getElementById("principal").value = null;
+  document.getElementById("rate").value = 10.25;
+  document.getElementById("years").value = 1;
+  document.getElementById("rate_val").innerHTML = "10.25%";
+  document.getElementById("result").innerHTML = null;
 }
