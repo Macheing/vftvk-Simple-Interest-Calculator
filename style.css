@@ -34,4 +34,7 @@ p {
 footer{
     color: white;
     text-indent: 4%;
+    left: 40%;
+    bottom: 55%;
+    position: absolute;
 }
