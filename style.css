@@ -26,12 +26,11 @@ p {
 #result1 #result2 #result3 #result4 {
     text-indent: 15%;
 }
+
+#copy{
+    text-indent:4%;
+}
+
 footer{
     text-indent: 4%;
-}
-#copy-right{
-    color: white;
-    text-indent: 30%;
-    left: 30%;
-    bottom: 50%;
 }
